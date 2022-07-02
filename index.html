@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Digital Clock</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div id="time">
+
+    <div class="circle" style="--clr:#ff2972;">
+      <div class="dots hr_div"></div>
+      <svg>
+        <circle cx="70" cy="70" r="70"></circle>
+        <circle cx="70" cy="70" r="70" id="hh"></circle>
+      </svg>
+      <div id="hours">00</div>
+    </div>
+
+    <div class="circle" style="--clr:#fee800;">
+      <div class="dots min_div"></div>
+      <svg>
+        <circle cx="70" cy="70" r="70"></circle>
+        <circle cx="70" cy="70" r="70" id="mm"></circle>
+      </svg>
+      <div id="minutes">00</div>
+    </div>
+
+    <div class="circle" style="--clr:#04fc43;">
+      <div class="dots sec_div"></div>
+      <svg>
+        <circle cx="70" cy="70" r="70"></circle>
+        <circle cx="70" cy="70" r="70" id="ss"></circle>
+      </svg>
+      <div id="seconds">00</div>
+    </div>
+
+    <div class="ap">
+      <div id="ampm">
+        AM
+      </div>
+    </div>
+  </div>
+  <div class="name">
+    <p>Digital-Clock 2022</p>
+  </div>
+  <script src="index.js" charset="utf-8"></script>
+</body>
+</html>
